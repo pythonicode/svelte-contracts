@@ -1,0 +1,35 @@
+{
+  "name": "svelte-contracts",
+  "version": "1.0.21",
+  "description": "Svelte stores library to access contracts addresses on any Ethereum forked chain.",
+  "main": "src/stores.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PythoniCode/svelte-contracts.git"
+  },
+  "keywords": [
+    "svelte",
+    "web3",
+    "ethereum",
+    "blockchain",
+    "svelte-kit"
+  ],
+  "author": "Anthony Riley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PythoniCode/svelte-contracts/issues"
+  },
+  "homepage": "https://github.com/PythoniCode/svelte-contracts#readme",
+  "dependencies": {
+    "svelte": "^3.44.3",
+    "svelte-web3": "^3.0.2",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
