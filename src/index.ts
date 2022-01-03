@@ -114,11 +114,11 @@ const supported_contracts: KeyValue = {
     'DAI': DAI,
 };
 
-export const supported = () => { return supported_contracts.keys(); }
+export const supported = Object.keys(supported_contracts);
 
 // Access Contract by Mapping
 
-// export const contracts = derived(supported_contracts.values(), 
+// export const contracts = derived(Object.values(supported_contracts), 
 //     ([...supported_contracts]) => ({
         
 //     })
