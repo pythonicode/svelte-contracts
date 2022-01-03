@@ -1,6 +1,6 @@
 {
   "name": "svelte-contracts",
-  "version": "1.0.22",
+  "version": "1.1.1",
   "description": "Svelte stores library to access contracts addresses on any Ethereum forked chain.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
