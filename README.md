@@ -23,7 +23,7 @@ Output: 'SHIB'
 
 ### Use prebuilt contracts
 
-Note: you must be connected to the blockchain  to use any prebuild contracts. Try [`svelte-web3`](https://www.npmjs.com/package/svelte-web3).
+**Note: you must be connected to the blockchain to use any prebuilt contracts. Try [`svelte-web3`](https://www.npmjs.com/package/svelte-web3).**
 
 ```js
 import { supported } from 'svelte-contracts';
