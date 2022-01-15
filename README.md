@@ -14,7 +14,7 @@ svelte-contracts is a library to easily create and manage [web3 contracts](https
 
 ```js
 import { createContract } from 'svelte-contracts';
-const ERC20Token = createContract('0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce');
+const ERC20Token = createContract('0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce'); // from etherscan.io
 const symbol = await ERC20Token.methods.symbol().call();
 console.log(symbol);
 
