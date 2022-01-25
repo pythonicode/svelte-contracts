@@ -37,3 +37,9 @@ import { USDC, USDT } from 'svelte-contracts';
 await USDC.methods.transfer('0x7b76229515d374a537360BDFE1504aF5EE04c415').call();
 await USDC.methods.approve('0x7b76229515d374a537360BDFE1504aF5EE04c415').call();
 ```
+
+## Docs
+
+### `createContract(address, ABI=ERC20ABI)`
+#### `address` - blockchain address for the contract (found on 3rd party sites like Etherscan.io)
+#### `ABI` - (optional) defaults to ERC20ABI which can be found [here](https://ethereumdev.io/abi-for-erc20-contract-on-ethereum/). Provide your own ABI as JSON if you want more functionality.  
